@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* border: 1px blue solid; */
+     /* esta propiedad bloquea el cursor y evitar que paresca texto */
+     user-select:none; 
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  margin: 10px;
+}
+
+.miTitulo{
+  padding: 0.5em 2em;
+  font-size: 2em;
+  text-transform: capitalize;
+}
+
+.miPantalla{
+  padding: 0px 10px ;
+  margin: 15px auto;
+  background-color: rgb(157, 157, 157);
+  color: rgb(255, 255, 255);
+  border-radius: 10px ;
+  width: 400px;
+  height: 80px;
+  font-size: 30px;
+  display: flex;
+  justify-content:flex-end;
+  align-items:center;
+}
+
+
+.miTeclado{
+  background-color: rgb(1, 152, 206);
+  font-size: 20px;
+  padding: 1em 2em;
+  border-radius: 10px ;
+  margin-bottom: 15px;
+}
+
+.miBoton{
+
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 8px;
+  background-color: #3b3f49;
+  color: #fdfaeb;
+  border: 0;
+  cursor: pointer;
+
+}
+
+
+.miFila{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.soyOperador{
+  background-color: orange;
+  color: #3b3f49;
+  
+}
+
+.boton-limpiar{
+
+  border-radius: 10px;
+  background-color: olivedrab;
+  width: 200px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
